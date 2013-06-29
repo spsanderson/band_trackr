@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/search_events" android:title="Search here for events" />
+	<item android:id="@+id/search_location" android:title="Search for location" />
+</menu>

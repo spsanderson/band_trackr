@@ -1,0 +1,25 @@
+﻿<!-- 
+Android repo manifest.
+
+Docs at:
+	https://github.com/android/tools_repo/blob/master/docs/manifest_xml.txt 
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote
+		name="lorensiuswlt"
+		fetch="git://github.com/lorensiuswlt" />
+	<project
+		name="NewQuickAction"
+		remote="lorensiuswlt"
+		revision="master"/>
+		
+	<remote
+		name="janrain"
+		fetch="git://github.com/janrain" />
+	<project
+		name="engage.android"
+		remote="janrain"
+		revision="master"/>
+</manifest>

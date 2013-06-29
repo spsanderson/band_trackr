@@ -1,0 +1,5 @@
+Sarajevo: geo fix 18.369977 43.849663
+NULL: geo fix 43.848641 18.362274
+Montreal: geo fix -73.55565 45.509076
+New York: geo fix -74.006063 40.713769
+NPE fix: geo fix -73.11989 40.80748

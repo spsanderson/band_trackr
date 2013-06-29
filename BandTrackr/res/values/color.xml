@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent">#00000000</color>
+	<color name="event_info">#ffffffff</color>
+	<color name="event_info_link">#ff00ffff</color>
+	<color name="list_divider">#51b6c3</color>
+</resources>

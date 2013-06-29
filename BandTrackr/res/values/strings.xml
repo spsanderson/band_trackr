@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BandTrackr</string>
+    <string name="google_maps_api_key">0MkzubpcCXUplm6-f3JN-YJyE4HBAJQAFYs63Bw</string>
+    <string name="NO_LOCATION_HTML">We are really sorry but it seems like either
+		location tools are disabled or signal may be poor for some reason and
+		we can\'t help you find neat shows to attend right now :(
+		&lt;br/>&lt;br/>Team BandTrackr</string>
+    <string name="yt_cat_prompt">Choose category</string>
+    <string name="EXTRA_VENUE_NAME">VENUE_NAME</string>
+    <string name="EXTRA_LOCATION">LOCATION</string>
+    <string name="EXTRA_LOCATION_CURRENT">LOCATION_CURRENT</string>
+    <string name="EXTRA_ADDRESS">ADDRESS</string>
+    <string name="EXTRA_ADDRESS_STRING">ADDRESS_STRING</string>
+    <string name="EXTRA_EVENT_ID">EVENT_ID</string>
+    <string name="EXTRA_EVENT_TICKET_URL">EVENT_TICKET_URL</string>
+    <string name="EXTRA_START_TIME">START_TIME</string>
+    <string name="EXTRA_END_TIME">END_TIME</string>
+    <string name="EXTRA_MSG">GENERAL_MESSAGE</string>
+    <string name="SHARED_PREFERENCES_NAME">BandTrackr</string>
+    <string name="SHARED_ENRICHED_HTML">enriched.html</string>
+    <string name="LOC_PROVIDER_PASSIVE">passive</string>
+
+    <!-- .foursquare -->
+    <string name="FOURSQUARE_TEXT_CHECK_IN">Check in via foursquare</string>
+    <string name="venue_cat_prompt">Choose a category</string>
+
+</resources>

@@ -1,0 +1,7 @@
+package com.mybandtrackr.android.protocol;
+
+public enum AuthData {
+
+	DEV_KEY, REQUEST_TOKEN_URI, ACCESS_TOKEN_URI, AUTH_WEB_URI, OAUTH_PROVIDER_KEY, CONSUMER_KEY, CONSUMER_SECRET, OAUTH_1, OAUTH_1a, SCOPE, CALLBACK;
+
+}

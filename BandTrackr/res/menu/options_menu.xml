@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/refresh" android:icon="@drawable/ic_menu_refresh"
+		android:title="Refresh" />
+
+	<item android:id="@+id/google_maps" android:title="Google Maps" />
+
+	<item android:id="@+id/social_service" android:title="Social Service">
+		<menu>
+			<item android:id="@+id/janrain" android:title="Janrain" />
+			<item android:id="@+id/tripit" android:title="TripIt" />
+			<item android:id="@+id/foursquare" android:title="Foursquare" />
+		</menu>
+	</item>
+
+	<item android:id="@+id/event_service" android:title="Event Service"/>
+
+	<item android:id="@+id/settings" android:title="Settings">
+		<menu>
+			<item android:id="@+id/gpsenable" android:title="Turn GPS off" />
+			<item android:id="@+id/lastfm" android:title="Last.fm" />
+			<item android:id="@+id/distances" android:title="Search Radius" />
+			<item android:id="@+id/logout" android:title="LogOut" />
+
+		</menu>
+	</item>
+
+	<item android:id="@+id/about" android:title="About" />
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/root_relative" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:id="@+id/top_relative"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@android:color/white">
+		<ImageView android:id="@+id/top_logo" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_alignParentLeft="true"
+			android:src="@drawable/logo_header" android:onClick="onLogoClick" />
+	</RelativeLayout>
+	<ScrollView android:id="@+id/venue_add_wrapper"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/content_linear"
+			android:orientation="vertical" android:layout_below="@id/top_relative"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:background="@drawable/bg_shape" android:padding="6sp">
+
+			<EditText android:id="@+id/venue_add_name"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dip" android:hint="Name" />
+			<EditText android:id="@+id/venue_add_address"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dip" android:hint="Address" />
+			<EditText android:id="@+id/venue_add_cross_street"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dip" android:hint="Cross Street" />
+			<EditText android:id="@+id/venue_add_city"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dip" android:hint="City" />
+			<EditText android:id="@+id/venue_add_state"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dip" android:hint="State" />
+			<EditText android:id="@+id/venue_add_zip"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dip" android:hint="Zip" />
+			<EditText android:id="@+id/venue_add_phone"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dip" android:hint="Phone" />
+			<Spinner android:id="@+id/venue_add_category"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:prompt="@string/venue_cat_prompt" />
+
+			<Button android:id="@+id/venue_add_save" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Add Venue" />
+
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>
+

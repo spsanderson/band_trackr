@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="5sp" android:orientation="vertical">
+	<TextView android:id="@+id/event_text_upper"
+		android:layout_width="fill_parent" android:layout_height="30sp"
+		android:layout_gravity="left" android:textSize="22sp"
+		android:typeface="sans" android:textColor="@color/event_info" />
+	<TextView android:id="@+id/event_text_lower"
+		android:layout_width="fill_parent" android:layout_height="20sp"
+		android:layout_gravity="left" android:textSize="16sp"
+		android:typeface="sans" android:textColor="@color/event_info" />
+</LinearLayout>
